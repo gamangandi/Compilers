@@ -1,0 +1,14 @@
+global int main() : function declaration
+{
+declare int n; : decleration statement
+expr n = 10; : expression statement
+declare int ans; : decleration statement
+expr ans = 1; : expression statement
+declare int i; : decleration statement
+expr i = 1; : expression statement
+for(expr i=1;i leq n;postincr(i)) : loop
+{
+expr ans = mul(ans,i); : expression statement
+}
+return ans; : return statement
+}

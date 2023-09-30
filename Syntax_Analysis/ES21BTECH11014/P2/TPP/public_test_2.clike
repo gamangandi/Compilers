@@ -1,0 +1,18 @@
+global int main()
+{
+    declare int n;
+    expr n = 10;
+
+    declare int ans;
+    expr ans = 1;
+
+    declare int i;
+    expr i = 1;
+
+    for(expr i=1;i leq n;postincr(i))
+    {
+        expr ans = mul(ans,i);
+    }
+
+    return ans;
+}

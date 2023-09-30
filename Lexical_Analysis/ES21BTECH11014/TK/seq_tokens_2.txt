@@ -1,0 +1,73 @@
+label:    pp1
+punctuation:    :
+datatype:    null
+ID:    _factorial
+special symbol:    (
+datatype:    integer_2
+ID:    x
+special symbol:    )
+label:    pp2
+punctuation:    :
+special symbol:    [
+label:    pp3
+punctuation:    :
+datatype:    integer_2
+ID:    ans
+operator:    =
+constant:    1
+punctuation:    ;
+label:    pp4
+punctuation:    :
+datatype:    character_1
+ID:    \123c
+operator:    =
+punctuation:    '
+constant:    p
+punctuation:    '
+punctuation:    ;
+label:    pp5
+punctuation:    :
+reserved keyword:    in case that
+special symbol:    [
+ID:    x
+reserved keyword:    gt
+ID:    \123c
+special symbol:    ]
+label:    pp6
+punctuation:    :
+reserved keyword:    do
+label:    pp7
+punctuation:    :
+special symbol:    [
+label:    pp8
+punctuation:    :
+ID:    ans
+operator:    =
+ID:    ans
+operator:    *
+ID:    x
+punctuation:    ;
+label:    pp9
+punctuation:    :
+ID:    x
+operator:    =
+ID:    x
+operator:    -
+constant:    1
+punctuation:    ;
+label:    pp10
+punctuation:    :
+reserved keyword:    jump to
+label:    pp5
+punctuation:    ;
+label:    pp11
+punctuation:    :
+special symbol:    ]
+label:    pp12
+punctuation:    :
+reserved keyword:    return
+ID:    ans
+punctuation:    ;
+label:    pp13
+punctuation:    :
+special symbol:    ]

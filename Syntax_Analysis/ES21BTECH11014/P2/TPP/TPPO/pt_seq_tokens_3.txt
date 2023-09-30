@@ -1,0 +1,92 @@
+reserved keyword : global
+datatype : int
+ID : main
+special symbol : (
+special symbol : )
+special symbol : {
+reserved keyword : declare
+datatype : int
+ID : low
+punctuation : ;
+reserved keyword : expr
+ID : low
+operator : =
+constant : 0
+punctuation : ;
+reserved keyword : declare
+datatype : int
+ID : high
+punctuation : ;
+reserved keyword : expr
+ID : high
+operator : =
+constant : 100
+punctuation : ;
+reserved keyword : declare
+datatype : int
+ID : mid
+punctuation : ;
+reserved keyword : expr
+ID : mid
+operator : =
+reserved keyword : div
+special symbol : (
+reserved keyword : add
+special symbol : (
+ID : low
+punctuation : ,
+ID : high
+special symbol : )
+punctuation : ,
+constant : 2
+special symbol : )
+punctuation : ;
+reserved keyword : loop
+reserved keyword : while
+special symbol : (
+ID : low
+reserved keyword : leq
+ID : high
+special symbol : )
+reserved keyword : do
+special symbol : {
+reserved keyword : expr
+ID : mid
+operator : =
+reserved keyword : div
+special symbol : (
+reserved keyword : add
+special symbol : (
+ID : low
+punctuation : ,
+ID : high
+special symbol : )
+punctuation : ,
+constant : 2
+special symbol : )
+punctuation : ;
+reserved keyword : expr
+ID : low
+operator : =
+reserved keyword : add
+special symbol : (
+ID : mid
+punctuation : ,
+constant : 1
+special symbol : )
+punctuation : ;
+reserved keyword : expr
+ID : high
+operator : =
+reserved keyword : sub
+special symbol : (
+ID : mid
+punctuation : ,
+constant : 1
+special symbol : )
+punctuation : ;
+special symbol : }
+reserved keyword : return
+constant : 0
+punctuation : ;
+special symbol : }

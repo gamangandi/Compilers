@@ -1,0 +1,13 @@
+ void _factorial(int x)
+ {
+    int ans = 1;
+    char \123c = 'p';
+    if (x > \123c)
+          
+        {
+            ans = ans * x;
+            x = x - 1;
+           goto  ;
+       }
+   return ans;
+}

@@ -1,0 +1,13 @@
+pp1: null _factorial(integer_2 x)
+pp2: [
+pp3:    integer_2 ans = 1;
+pp4:    character_1 \123c = 'p';
+pp5:    in case that [x gt \123c]
+pp6:        do
+pp7:        [
+pp8:            ans = ans * x;
+pp9:            x = x - 1;
+pp10:           jump to pp5;
+pp11:       ]
+pp12:   return ans;
+pp13:]

@@ -1,0 +1,56 @@
+label:    pp1
+punctuation:    :
+datatype:    null
+ID:    +function
+special symbol:    (
+special symbol:    )
+label:    pp2
+punctuation:    :
+special symbol:    [
+label:    pp3
+punctuation:    :
+datatype:    integer_2
+ID:    #69a
+operator:    =
+constant:    0
+punctuation:    ;
+label:    pp4
+punctuation:    :
+reserved keyword:    in case that
+special symbol:    [
+ID:    #69a
+reserved keyword:    lteq
+ID:    #69a
+special symbol:    ]
+label:    pp5
+punctuation:    :
+reserved keyword:    do
+label:    pp6
+punctuation:    :
+special symbol:    [
+label:    pp7
+punctuation:    :
+ID:    #69a
+operator:    =
+ID:    #69a
+operator:    +
+constant:    1
+punctuation:    ;
+label:    pp8
+punctuation:    :
+reserved keyword:    jump to
+label:    pp4
+punctuation:    ;
+label:    pp9
+punctuation:    :
+special symbol:    ]
+label:    pp10
+punctuation:    :
+reserved keyword:    return
+ID:    #69b
+operator:    /
+constant:    0
+punctuation:    ;
+label:    pp11
+punctuation:    :
+special symbol:    ]

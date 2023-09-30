@@ -1,0 +1,11 @@
+pp1: null +function()
+pp2: [
+pp3:    integer_2 #69a = 0;
+pp4:    in case that [#69a lteq #69a] 
+pp5:        do
+pp6:        [
+pp7:            #69a = #69a + 1;
+pp8:            jump to pp4;
+pp9:        ]
+pp10:    return #69b / 0;
+pp11:]

@@ -1,0 +1,17 @@
+global int main() : function declaration
+{
+declare int low; : decleration statement
+expr low = 0; : expression statement
+declare int high; : decleration statement
+expr high = 100; : expression statement
+declare int mid; : decleration statement
+expr mid = div(add(low,high),2); : expression statement
+loop while(low leq high) : loop
+do
+{
+expr mid = div(add(low,high),2); : expression statement
+expr low = add(mid,1); : expression statement
+expr high = sub(mid,1); : expression statement
+}
+return 0; : return statement
+}

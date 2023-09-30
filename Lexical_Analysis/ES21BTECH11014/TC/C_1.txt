@@ -1,0 +1,11 @@
+ void +function()
+ {
+    int #69a = 0;
+    if (#69a <= #69a) 
+          
+        {
+            #69a = #69a + 1;
+            goto  ;
+        }
+    return #69b / 0;
+}

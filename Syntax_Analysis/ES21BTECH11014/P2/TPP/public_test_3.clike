@@ -1,0 +1,21 @@
+global int main()
+{
+    declare int low;
+    expr low = 0;
+    declare int high;
+    expr high = 100;
+
+    declare int mid;
+    expr mid = div(add(low,high),2);
+
+    loop while(low leq high)
+    do
+    {
+        expr mid = div(add(low,high),2);
+
+        expr low = add(mid,1);
+        expr high = sub(mid,1);
+    }
+
+    return 0;
+}

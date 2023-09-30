@@ -1,0 +1,14 @@
+global int main() : function declaration
+{
+declare int ans; : decleration statement
+expr ans = 0; : expression statement
+declare int i; : decleration statement
+expr i = 0; : expression statement
+loop while(i lt 10) : loop
+do
+{
+expr ans = add(ans,i); : expression statement
+postincr(i); : call statement
+}
+return ans; : return statement
+}

@@ -1,0 +1,12 @@
+pp1: integer_2 sum(integer_2 x)
+pp2: [
+pp3:    integer_2 ans = 1;
+pp4:    in case that x gt 0
+pp5:        do
+pp6:        [
+pp7:            ans = ans + x;
+pp8:            x = x - 1;
+pp9:           jump to pp4;
+pp10:       ]
+pp11:   return ans;
+pp12:]

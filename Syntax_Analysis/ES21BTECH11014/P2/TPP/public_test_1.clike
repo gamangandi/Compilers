@@ -1,0 +1,17 @@
+global int main()
+{
+    declare int ans;
+    expr ans = 0;
+
+    declare int i;
+    expr i = 0;
+
+    loop while(i lt 10)
+    do
+    {
+        expr ans = add(ans,i);
+        postincr(i);
+    }
+
+    return ans;
+}

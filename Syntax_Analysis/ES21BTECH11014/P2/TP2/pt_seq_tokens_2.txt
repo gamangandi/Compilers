@@ -1,0 +1,65 @@
+reserved keyword : global
+datatype : int
+ID : main
+special symbol : (
+special symbol : )
+special symbol : {
+reserved keyword : declare
+datatype : int
+ID : n
+punctuation : ;
+reserved keyword : expr
+ID : n
+operator : =
+constant : 10
+punctuation : ;
+reserved keyword : declare
+datatype : int
+ID : ans
+punctuation : ;
+reserved keyword : expr
+ID : ans
+operator : =
+constant : 1
+punctuation : ;
+reserved keyword : declare
+datatype : int
+ID : i
+punctuation : ;
+reserved keyword : expr
+ID : i
+operator : =
+constant : 1
+punctuation : ;
+reserved keyword : for
+special symbol : (
+reserved keyword : expr
+ID : i
+operator : =
+constant : 1
+punctuation : ;
+ID : i
+reserved keyword : leq
+ID : n
+punctuation : ;
+reserved keyword : postincr
+special symbol : (
+ID : i
+special symbol : )
+special symbol : )
+special symbol : {
+reserved keyword : expr
+ID : ans
+operator : =
+reserved keyword : mul
+special symbol : (
+ID : ans
+punctuation : ,
+ID : i
+special symbol : )
+punctuation : ;
+special symbol : }
+reserved keyword : return
+ID : ans
+punctuation : ;
+special symbol : }
